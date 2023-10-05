@@ -1,8 +1,10 @@
 # Vimeo 비공개 동영상 다운로더
 
 > 이 Repository는 [Vimeo Private Video Downloader](https://github.com/Tusko/vimeo-private-downloader)를 포크하여 만들어졌습니다.
+
 간단한 번역 및 윈도우 사용자 기준으로 안내와, 변환을 위한 `vimeo-combine.bat` 파일을 추가하였습니다.
 오역이 많습니다. 양해바랍니다.
+
 ~~사실 저 혼자 쓰려고 포크한거입니다.~~
 
 Node.js 스크립트를 사용하면 [Vimeo](https://vimeo.com)에서 비공개 동영상을 다운로드할 수 있습니다.
