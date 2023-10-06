@@ -8,13 +8,15 @@ Node.js 스크립트를 사용하면 [Vimeo](https://vimeo.com)에서 비공개 
 
 ## 요구사항
 1. Node.js
-시작하기 전에 [Node.js](https://nodejs.org/en/download/)를 설치했는지 확인해주세요.
+
+    시작하기 전에 [Node.js](https://nodejs.org/en/download/)를 설치했는지 확인해주세요.
 
     확인하려면 터미널(cmd)에서 `node -v` 명령을 실행하세요. 예를 들어 `v10.11.0`이 표시됩니다. 에러가 발생하면 최신 [Node.js](https://nodejs.org/en/download/)를 설치해주세요.
 
 2. ffmpeg
-`ffmpeg`를 설치해주세요. [여기](https://ffmpeg.org/download.html)에서 다운로드할 수 있습니다.
-비디오/오디오 조각들을 결합하고 mp4로 변환하는데 필요합니다.
+
+    `ffmpeg`를 설치해주세요. [여기](https://ffmpeg.org/download.html)에서 다운로드할 수 있습니다.
+    비디오/오디오 조각들을 결합하고 mp4로 변환하는데 필요합니다.
 
     확인하려면 터미널에서 `ffmpeg -version` 명령을 실행하세요. 예를 들어 `ffmpeg version 5.1.2`이 표시됩니다. 
 
