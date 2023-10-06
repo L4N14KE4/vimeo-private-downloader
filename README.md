@@ -1,8 +1,9 @@
 # Vimeo 비공개 동영상 다운로더 한국어 번역판
 
-> 안녕하세요! 이 Repository는 [Vimeo Private Video Downloader](https://github.com/Tusko/vimeo-private-downloader)를 기반으로, 한국어 번역과 윈도우 사용자에 맞게 수정되었습니다. 또한 vimeo-combine.bat 파일이 추가되었습니다.<br>
-제 지식의 한계로 인해 오류가 있을 수 있습니다. 이해 부탁드립니다.
-
+> 안녕하세요! 이 Repository는 [Vimeo Private Video Downloader](https://github.com/Tusko/vimeo-private-downloader)를 기반으로, 한국어 번역과 윈도우 사용자에 맞게 내용을 보완하였습니다. 또한 vimeo-combine.bat 파일을 추가하였습니다.<br>
+제 지식의 한계로 인해 오역/오류가 있을 수 있습니다. 이해 부탁드립니다.
+<br> 
+docker test 안함
 
 #### Node.js 스크립트를 사용하면 [Vimeo](https://vimeo.com)에서 비공개 동영상을 다운로드할 수 있습니다.
 
@@ -32,12 +33,11 @@
 3. 네트워크 탭에서 `master.json` 파일의 로드를 찾아 **전체 URL**을 복사합니다.
 - 경우에 따라 Vimeo에서 암호화된 동영상 데이터를 전송하는 경우가 있습니다.
 
-    > **해결방법**
+    **해결방법**
+> 1. `query_string_ranges` 쿼리 파라미터를 제거
+> 2. `base64_init=1`을 추가
 
-    ```markdown
-    1. 'query_string_ranges' 쿼리 파라미터를 제거
-    2. `base64_init=1`을 추가
-    ```
+<br>
 
 4.  `videojson.js` 파일에 복사한 `url`과 원하는 파일명인 `name`필드를 채워주세요.
 
