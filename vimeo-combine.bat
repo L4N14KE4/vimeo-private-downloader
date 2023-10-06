@@ -14,10 +14,10 @@ for %%F in (.\parts\*.m4v) do (
     if errorlevel 1 (
         echo 오류 발생, 변환 실패: %%~nxF
     ) else (
-        echo !current!/!count! 번째 파일 변환이 완료되었습니다: %%~nxF
+        echo !current!/!count! 번째 파일 변환이 완료되었습니다.: %%~nxF
     )
 )
 
-echo 모든 파일 변환이 완료되었습니다!
+echo 모든 파일 변환이 완료되었습니다.
 
 endlocal

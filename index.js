@@ -75,9 +75,9 @@ function processFile(type, baseUrl, initData, segments, filename, cb) {
   const downloadingFlag = `./parts/.${file}~`;
 
   if (fs.existsSync(downloadingFlag)) {
-    log("⚠️", ` ${file} - ${type} 의 다운로드가 완료되지 않았습니다. 다시 시작합니다.`);
+    log("⚠️", ` ${file}의 ${type} 다운로드가 완료되지 않았습니다. 다시 시작합니다.`);
   } else if (fs.existsSync(filePath)) {
-    log("⚠️", ` ${file} - ${type} 이/가 이미 존재합니다.`);
+    log("⚠️", ` ${file}의 ${type}가 이미 존재합니다.`);
     cb();
   } else {
     fs.writeFileSync(downloadingFlag, '');
@@ -153,7 +153,7 @@ function getJson(url, n, cb) {
         res.on("data", d => (data += d));
         res.on("end", () => cb(null, JSON.parse(data)));
       } else {
-        return cb(`master.json 파일이 만료되었거나 손상되었습니다. 목록에서 업데이트하거나 제거해주세요.(` + n + ` 위치에서 깨짐)`);
+        return cb(`master.json 파일이 만료되었거나 손상되었습니다. 목록을 업데이트하거나 제거해주세요.(` + n + ` 위치에서 깨짐)`);
       }
     })
     .on("error", e => {
