@@ -5,7 +5,7 @@
 <br> 
 docker test 안함
 
-#### Node.js 스크립트를 사용하면 [Vimeo](https://vimeo.com)에서 비공개 동영상을 다운로드할 수 있습니다.
+Node.js 스크립트를 사용하면 [Vimeo](https://vimeo.com)에서 비공개 동영상을 다운로드할 수 있습니다.
 
 ## 요구사항
 1. Node.js
